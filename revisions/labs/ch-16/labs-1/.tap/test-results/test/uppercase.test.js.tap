@@ -1,0 +1,52 @@
+TAP version 14
+# Subtest: should throw if wrong argument
+    ok 1 - expected to throw
+    ok 2 - expected to throw
+    ok 3 - type is Error
+    not ok 4 - should be equivalent strictly
+      ---
+      diff: |
+        --- expected
+        +++ actual
+        @@ -1,1 +1,1 @@
+        -Error: input must be a string
+        +TypeError: Cannot read properties of null (reading 'toUpperCase')
+      at:
+        fileName: test/uppercase.test.js
+        lineNumber: 13
+        columnNumber: 9
+        typeName: Test
+      stack: |
+        Test.<anonymous> (test/uppercase.test.js:13:9)
+        Object.<anonymous> (test/uppercase.test.js:6:5)
+      source: |2
+          } catch (error) {
+            tap.type(error, Error)
+            tap.strictSame(error, Error('input must be a string'))
+        --------^
+          }
+      ...
+    
+    1..4
+not ok 1 - should throw if wrong argument # time=34.358ms
+  ---
+  at:
+    fileName: test/uppercase.test.js
+    lineNumber: 6
+    columnNumber: 5
+    typeName: Object
+  source: |
+    const uppercase = require('../uppercase')
+  
+    tap.test('should throw if wrong argument', async (tap) => {
+    ----^
+      tap.throws(() => uppercase(5))
+      tap.throws(() => uppercase(null))
+  ...
+
+# Subtest: should return uppercased string
+    ok 1 - should be equivalent strictly
+    1..1
+ok 2 - should return uppercased string # time=0.547ms
+
+1..2

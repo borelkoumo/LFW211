@@ -1,0 +1,19 @@
+{
+  "name": "load-module-with-cjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "pino": "^8.20.0"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  }
+}

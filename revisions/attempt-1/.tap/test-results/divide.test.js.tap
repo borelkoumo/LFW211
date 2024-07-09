@@ -1,0 +1,43 @@
+TAP version 14
+# Subtest: Hello
+    not ok 1 - tap.notEqual is not a function
+      ---
+      stack: |
+        Test.<anonymous> (divide.test.js:8:7)
+      at:
+        fileName: divide.test.js
+        lineNumber: 8
+        columnNumber: 7
+        typeName: Test
+        methodName: <anonymous>
+        functionName: Test.<anonymous>
+      type: TypeError
+      tapCaught: returnedPromiseRejection
+      source: |2
+          tap.equal(divide(7, 8), 7/8)
+          tap.throws(()=> divide('7', 8), Error('inputs must be numbers'))
+          tap.notEqual(typeof divide(7, 8), false)
+        ------^
+        })
+      ...
+    
+    1..1
+not ok 1 - Hello # time=32.53ms
+  ---
+  at:
+    fileName: divide.test.js
+    lineNumber: 5
+    columnNumber: 5
+    typeName: Object
+  source: |
+    const tap = require('tap')
+  
+    tap.test('Hello', async () => {
+    ----^
+      tap.equal(divide(7, 8), 7/8)
+      tap.throws(()=> divide('7', 8), Error('inputs must be numbers'))
+  ...
+
+ok 2 - should be equal
+ok 3 - expected to throw
+1..3

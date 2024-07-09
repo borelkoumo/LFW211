@@ -1,0 +1,13 @@
+{
+  "name": "labs-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.cjs",
+  "scripts": {
+    "test": "node test.mjs"
+  },
+  "type":"module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

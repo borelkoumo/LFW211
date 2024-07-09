@@ -1,0 +1,47 @@
+TAP version 14
+# Subtest: handles network errors
+    ok 1 - should be equivalent strictly
+    1..1
+ok 1 - handles network errors # time=545.767ms
+
+not ok 2 - test assertion after end() was called
+  ---
+  stack: |
+    test/req.test.js:7:5
+    Timeout._onTimeout (req.js:7:5)
+  at:
+    fileName: test/req.test.js
+    lineNumber: 7
+    columnNumber: 5
+  test: handles network errors
+  source: |
+    test('handles network errors', ({ strictSame, end }) => {
+      req('http://error.com', (err) => {
+        strictSame(err, Error('network error'))
+    ----^
+        end()
+      })
+  ...
+
+not ok 3 - test end() method called more than once
+  ---
+  stack: |
+    test/req.test.js:8:5
+    Timeout._onTimeout (req.js:7:5)
+  at:
+    fileName: test/req.test.js
+    lineNumber: 8
+    columnNumber: 5
+  cause:
+    test: handles network errors
+  test: handles network errors
+  source: |2
+      req('http://error.com', (err) => {
+        strictSame(err, Error('network error'))
+        end()
+    ----^
+      })
+    })
+  ...
+
+1..3

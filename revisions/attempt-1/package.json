@@ -1,0 +1,14 @@
+{
+  "name": "your-package-name",
+  "version": "1.0.0",
+  "description": "Your package description",
+  "main": "answer.js",
+  "scripts": {
+    "test": "tap"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "tap": "^18.8.0"
+  }
+}

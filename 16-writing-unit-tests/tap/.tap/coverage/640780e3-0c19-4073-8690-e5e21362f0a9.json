@@ -1,0 +1,39 @@
+{
+  "result": [
+    {
+      "scriptId": "983",
+      "url": "file:///home/borelkoumo/LFW211/16-writing-unit-tests/harnesses/req-prom.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 273,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "module.exports",
+          "ranges": [
+            {
+              "startOffset": 90,
+              "endOffset": 237,
+              "count": 2
+            },
+            {
+              "startOffset": 163,
+              "endOffset": 236,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    }
+  ],
+  "timestamp": 8809.404417,
+  "source-map-cache": {}
+}

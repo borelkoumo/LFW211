@@ -1,0 +1,50 @@
+{
+  "result": [
+    {
+      "scriptId": "984",
+      "url": "file:///home/borelkoumo/LFW211/labs/ch-16/labs-2/store.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 266,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "module.exports",
+          "ranges": [
+            {
+              "startOffset": 30,
+              "endOffset": 265,
+              "count": 2
+            },
+            {
+              "startOffset": 87,
+              "endOffset": 264,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 157,
+              "endOffset": 257,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    }
+  ],
+  "timestamp": 8811.039237,
+  "source-map-cache": {}
+}

@@ -1,0 +1,34 @@
+{
+  "result": [
+    {
+      "scriptId": "638",
+      "url": "file:///home/borelkoumo/LFW211/revisions/labs/ch-16/labs-1/uppercase.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 117,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "uppercase",
+          "ranges": [
+            {
+              "startOffset": 17,
+              "endOffset": 80,
+              "count": 4
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    }
+  ],
+  "timestamp": 21290.035786,
+  "source-map-cache": {}
+}

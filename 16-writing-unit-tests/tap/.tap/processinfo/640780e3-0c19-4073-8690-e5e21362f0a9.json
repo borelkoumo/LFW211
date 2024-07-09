@@ -1,0 +1,30 @@
+{
+  "date": "2024-04-03T19:20:46.745Z",
+  "argv": [
+    "/home/borelkoumo/.nvm/versions/node/v18.18.1/bin/node",
+    "/home/borelkoumo/LFW211/16-writing-unit-tests/harnesses/test/req-prom.test.js"
+  ],
+  "execArgv": [
+    "--loader=file:///home/borelkoumo/LFW211/16-writing-unit-tests/harnesses/node_modules/@isaacs/ts-node-temp-fork-for-pr-2009/esm.mjs",
+    "--loader=file:///home/borelkoumo/LFW211/16-writing-unit-tests/harnesses/node_modules/@tapjs/mock/dist/esm/legacy-loader.mjs",
+    "--no-warnings",
+    "--enable-source-maps",
+    "--loader=file:///home/borelkoumo/LFW211/16-writing-unit-tests/harnesses/node_modules/@tapjs/processinfo/dist/esm/loader-legacy.mjs"
+  ],
+  "NODE_OPTIONS": "",
+  "cwd": "/home/borelkoumo/LFW211/16-writing-unit-tests/harnesses",
+  "pid": 10309,
+  "ppid": 10289,
+  "parent": null,
+  "uuid": "640780e3-0c19-4073-8690-e5e21362f0a9",
+  "files": [
+    "/home/borelkoumo/LFW211/16-writing-unit-tests/harnesses/test/req-prom.test.js",
+    "/home/borelkoumo/LFW211/16-writing-unit-tests/harnesses/req-prom.js"
+  ],
+  "sources": {},
+  "root": "640780e3-0c19-4073-8690-e5e21362f0a9",
+  "externalID": "test/req-prom.test.js",
+  "code": 0,
+  "signal": null,
+  "runtime": 2480.345263
+}

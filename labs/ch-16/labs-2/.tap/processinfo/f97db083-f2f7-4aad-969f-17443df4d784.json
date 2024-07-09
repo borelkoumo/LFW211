@@ -1,0 +1,30 @@
+{
+  "date": "2024-04-04T19:40:57.506Z",
+  "argv": [
+    "/home/borelkoumo/.nvm/versions/node/v18.18.1/bin/node",
+    "/home/borelkoumo/LFW211/labs/ch-16/labs-2/store.test.js"
+  ],
+  "execArgv": [
+    "--loader=file:///home/borelkoumo/LFW211/labs/ch-16/labs-2/node_modules/@isaacs/ts-node-temp-fork-for-pr-2009/esm.mjs",
+    "--loader=file:///home/borelkoumo/LFW211/labs/ch-16/labs-2/node_modules/@tapjs/mock/dist/esm/legacy-loader.mjs",
+    "--no-warnings",
+    "--enable-source-maps",
+    "--loader=file:///home/borelkoumo/LFW211/labs/ch-16/labs-2/node_modules/@tapjs/processinfo/dist/esm/loader-legacy.mjs"
+  ],
+  "NODE_OPTIONS": "",
+  "cwd": "/home/borelkoumo/LFW211/labs/ch-16/labs-2",
+  "pid": 11610,
+  "ppid": 11586,
+  "parent": null,
+  "uuid": "f97db083-f2f7-4aad-969f-17443df4d784",
+  "files": [
+    "/home/borelkoumo/LFW211/labs/ch-16/labs-2/store.test.js",
+    "/home/borelkoumo/LFW211/labs/ch-16/labs-2/store.js"
+  ],
+  "sources": {},
+  "root": "f97db083-f2f7-4aad-969f-17443df4d784",
+  "externalID": "store.test.js",
+  "code": 1,
+  "signal": null,
+  "runtime": 631.904051
+}

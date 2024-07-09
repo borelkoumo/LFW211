@@ -1,0 +1,44 @@
+{
+  "result": [
+    {
+      "scriptId": "637",
+      "url": "file:///home/borelkoumo/LFW211/revisions/unit-testing/common/add.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 163,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "module.exports",
+          "ranges": [
+            {
+              "startOffset": 30,
+              "endOffset": 163,
+              "count": 4
+            },
+            {
+              "startOffset": 70,
+              "endOffset": 94,
+              "count": 2
+            },
+            {
+              "startOffset": 96,
+              "endOffset": 162,
+              "count": 2
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    }
+  ],
+  "timestamp": 7926.160771,
+  "source-map-cache": {}
+}

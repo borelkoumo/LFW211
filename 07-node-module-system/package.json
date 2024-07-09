@@ -1,0 +1,21 @@
+{
+  "name": "module-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "lint": "standard"
+  },
+  "type":"commonjs",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pino": "^8.16.2"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  }
+}

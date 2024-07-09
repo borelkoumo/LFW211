@@ -1,0 +1,5 @@
+console.log()
+console.group('# group 1')
+console.log('require.resolve("pino") \t => ', require.resolve('pino'))
+console.groupEnd()
+console.log()

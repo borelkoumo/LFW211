@@ -1,0 +1,14 @@
+TAP version 14
+# Subtest: throw when inputs are not numbers
+    ok 1 - expected to throw
+    ok 2 - expected to throw
+    1..2
+ok 1 - throw when inputs are not numbers # time=14.37ms
+
+# Subtest: add two numbers
+    ok 1 - should be equal
+    ok 2 - should be equal
+    1..2
+ok 2 - add two numbers # time=0.648ms
+
+1..2

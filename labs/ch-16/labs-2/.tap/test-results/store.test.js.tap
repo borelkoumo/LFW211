@@ -1,0 +1,30 @@
+TAP version 14
+# Subtest: input should be a buffer
+    ok 1 - should be equivalent strictly
+    1..1
+ok 1 - input should be a buffer # time=13.64ms
+
+# Subtest: should return an id of length 4
+    1..0
+ok 2 - should return an id of length 4 # time=0.555ms
+
+not ok 3 - test assertion after Promise resolution
+  ---
+  stack: |
+    store.test.js:15:9
+    Timeout._onTimeout (store.js:9:5)
+  at:
+    fileName: store.test.js
+    lineNumber: 15
+    columnNumber: 9
+  test: should return an id of length 4
+  source: |
+    tap.test('should return an id of length 4', async tap => {
+      store(Buffer.from('hello'), (err, data) => {
+        tap.equal(data.id.length, 4)
+    --------^
+      })  
+    })
+  ...
+
+1..3

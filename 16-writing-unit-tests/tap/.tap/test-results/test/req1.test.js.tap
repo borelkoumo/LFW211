@@ -1,0 +1,25 @@
+TAP version 14
+# Subtest: handles network errors
+    1..0
+ok 1 - handles network errors # time=10.261ms
+
+not ok 2 - test assertion after Promise resolution
+  ---
+  stack: |
+    test/req1.test.js:17:5
+    Timeout._onTimeout (req.js:5:7)
+  at:
+    fileName: test/req1.test.js
+    lineNumber: 17
+    columnNumber: 5
+  test: handles network errors
+  source: |
+    tap.test('handles network errors', async ({ strictSame }) => {
+      req('http://error.com', (err) => {
+        strictSame(err, Error('network error'))
+    ----^
+      })
+    })
+  ...
+
+1..2

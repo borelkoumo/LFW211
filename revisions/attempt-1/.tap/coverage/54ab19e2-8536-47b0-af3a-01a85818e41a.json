@@ -1,0 +1,49 @@
+{
+  "result": [
+    {
+      "scriptId": "321",
+      "url": "file:///home/borelkoumo/LFW211/revisions/attempt-1/divide.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 173,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "divide",
+          "ranges": [
+            {
+              "startOffset": 30,
+              "endOffset": 173,
+              "count": 3
+            },
+            {
+              "startOffset": 83,
+              "endOffset": 107,
+              "count": 2
+            },
+            {
+              "startOffset": 109,
+              "endOffset": 156,
+              "count": 1
+            },
+            {
+              "startOffset": 156,
+              "endOffset": 172,
+              "count": 2
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    }
+  ],
+  "timestamp": 17850.575658,
+  "source-map-cache": {}
+}

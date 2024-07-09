@@ -1,0 +1,13 @@
+TAP version 14
+# Subtest: handles network errors
+    ok 1 - expected to reject
+    1..1
+ok 1 - handles network errors # time=1069.867ms
+
+# Subtest: returns correct data
+    ok 1 - should be equal
+    ok 2 - should be equivalent strictly
+    1..2
+ok 2 - returns correct data # time=1009.85ms
+
+1..2

@@ -1,0 +1,5 @@
+const fs = require('fs')
+const readable = fs.createReadStream('a.txt')
+readable.on('data', (chunk) => console.log('got data ', chunk))
+readable.on('end', () => console.log('finished reading'))
+readable.on('error', (error) => console.log('error in stream ===> ', error.message))

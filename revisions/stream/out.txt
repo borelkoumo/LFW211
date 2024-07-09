@@ -1,0 +1,5 @@
+some
+data
+to
+read
+nothing more to write
